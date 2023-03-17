@@ -11,7 +11,7 @@ body {
 }
 
 #cabecalho1 {
-    background-image: url(imagens/bg-3.jpg);
+    background-image: url(imagens/bg.jpg);
     height: 600px;
     background-position: right center;
     background-size: cover;
@@ -66,3 +66,60 @@ div#titulo p {
     display:inline-block;
     border-bottom: 1px solid white;
 }
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+.secoes {
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+#secao1 {
+    text-align: center;
+}
+
+#secao1 div img {
+    margin: auto;
+}
+
+.card {
+    display:inline-block;
+    margin: 0px 30px;
+}
+
+.text-card {
+    color: white;
+    text-transform: uppercase;
+    background-color: rgb(50, 50, 50);
+    text-align: left;
+    padding: 10px;
+}
+
+#titulo-artigo {
+    background-color: #ccc;
+    border-bottom: 1px solid rgb(60, 60, 60);
+    padding: 10px;
+}
+
+#subtitulo-artigo {
+    margin: 10px 0px;
+    font-size: 18px;
+}
+
+.texto-artigo {
+    line-height: 1.5;
+    font-size: 18px;
+    text-align: justify;
+}
+
+#rodape p {
+    color: white;
+    background-color: rgba(30, 30, 30, 0.8);
+    text-align: center;
+    padding: 10px 0px;
+}
+
